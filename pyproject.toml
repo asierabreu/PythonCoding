@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pythoncoding"
+version = "0.1.0"
+description = "Typical Python project scaffold managed with Poetry"
+authors = ["PythonCoding Maintainers"]
+readme = "README.md"
+packages = [{ include = "pythoncoding", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"
