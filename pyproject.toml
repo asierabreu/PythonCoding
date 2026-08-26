@@ -8,6 +8,7 @@ packages = [{ include = "pythoncoding", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+langchain  
 
 [build-system]
 requires = ["poetry-core>=1.9.0"]
